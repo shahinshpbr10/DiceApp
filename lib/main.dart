@@ -1,12 +1,12 @@
+import 'package:diceapp/widget/gradient_continer.dart';
+
 import 'package:flutter/material.dart';
 
-import 'gradient_continer.dart';
-
 void main() {
-  runApp(const MaterialApp(
+  runApp(MaterialApp(
     home: Scaffold(
         body: GradientContiner(
-      color: [Color.fromARGB(255, 20, 4, 46), Colors.deepPurple],
+      color: const [Color.fromARGB(255, 32, 9, 73), Colors.deepPurple],
     )),
   ));
 }
